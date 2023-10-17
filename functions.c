@@ -3,9 +3,9 @@
 /************************* PRINT CHAR *************************/
 
 /**
- * print_char - Prints a char
- * @types: List a of The arguments
- * @buffer: Buffer array to handle print
+ * print_char - Prints  char
+ * @types: List a of an arguments
+ * @buffer: Buffer arrays to handle print
  * @flags:  Calculates active flags
  * @width: Width
  * @precision: Precision specification
@@ -21,8 +21,8 @@ int print_char(va_list types, char buffer[],
 }
 /************************* PRINT A STRING *************************/
 /**
- * print_string - Prints A String
- * @types: List a ofThe arguments
+ * print_string - Prints string
+ * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
@@ -76,13 +76,13 @@ int print_string(va_list types, char buffer[],
 }
 /************************* PRINT PERCENT SIGN *************************/
 /**
- * print_percent - Prints A Percent Of Sign
- * @types: List  Of Arguments
- * @buffer: Buffer Array To Handle Print
- * @flags:  Calculates The Active Flags
+ * print_percent - Prints a percentage sign
+ * @types: Lista of the arguments
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates the active flags
  * @width: get width.
- * @precision: Precision Specification
- * @size: Size Specifier
+ * @precision: Precision specification
+ * @size: Size specifier
  * Return: Number of chars printed
  */
 int print_percent(va_list types, char buffer[],
@@ -99,10 +99,10 @@ int print_percent(va_list types, char buffer[],
 
 /************************* PRINT INT *************************/
 /**
- * print_int - Print Int
- * @types: Lista Of The Arguments
- * @buffer: Buffer Array To Handle Print
- * @flags:  Calculates The active flags
+ * print_int - Print int
+ * @types: Lista of arguments
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates active flags
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
@@ -143,11 +143,11 @@ int print_int(va_list types, char buffer[],
 
 /************************* PRINT BINARY *************************/
 /**
- * print_binary - Prints The Unsigned Number
+ * print_binary - Prints unsigned number
  * @types: Lista of arguments
- * @buffer: Buffer Array To Handle Print
- * @flags:  Calculates The Active Flags
- * @width: get Width.
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates an active flags
+ * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Numbers of char printed.
